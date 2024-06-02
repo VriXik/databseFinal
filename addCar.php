@@ -1,6 +1,6 @@
 <?php
 $conn = new mysqli;
-include 'localConect.php';
+include 'hostConect.php';
 
 $carFactory = $_POST['carFactory'];
 $carModel = $_POST['carModel'];
