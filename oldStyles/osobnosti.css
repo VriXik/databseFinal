@@ -1,0 +1,162 @@
+html{
+    background-color: #000000;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Corbel, serif;
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+}
+
+/* Chrome, Safari and Opera (scrollbar)*/
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    border-radius: 5px;
+
+}
+
+/*NAVBAR*/
+
+.navbar {
+    background-color: #000000;
+    top: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+
+.main {
+    background: url("../img/osobnosti/main/japan-header-osobnosti-tmavastrana.webp"), no-repeat, center;
+    background-position-y: bottom;
+    background-size: cover;
+
+}
+
+.mainBox {
+    display: grid;
+    height: 70vh;
+    align-content: center;
+    margin: 0;
+}
+
+.mainText {
+    text-align: center;
+    color: aliceblue;
+}
+
+.mainText h1{
+    font-weight: bolder;
+    font-size: 150px;
+    line-height: 0
+}
+
+.mainText h2{
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 0
+
+}
+
+.mainText h3{
+    font-style: italic;
+    font-weight: initial;
+    font-size: 50px;
+    line-height: 0;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+
+.mainText img {
+    padding-top: 0;
+    height: 150px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 0 10px 10px;
+    column-gap: 10px;
+}
+
+.grid-item {
+    background-color: #1a001a;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.Akio-Toyota {
+    padding: 20px;
+    display: grid;
+    background-color: #1a001a;
+    border-radius: 20px;
+}
+
+.imageConteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.image {
+    padding-left: 10px;
+    flex-basis: 60%;
+}
+
+.center {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.center a {
+    color: white;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#Akio {
+    scroll-margin-block-start: 75px;
+}
+
+#Honda {
+    scroll-margin-block-start: 75px;
+}
+
+#Takumi {
+    scroll-margin-block-start: 75px;
+}
+
+#Smokey {
+    scroll-margin-block-start: 75px;
+}

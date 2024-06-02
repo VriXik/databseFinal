@@ -1,0 +1,164 @@
+html{
+    background-color: #000000;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Corbel, serif;
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+}
+
+/* Chrome, Safari and Opera (scrollbar)*/
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    border-radius: 5px;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    background-color: #000000;
+    top: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+
+/*IMAGES*/
+
+.mithsubishi {
+    height: 190px;
+}
+
+.nissanSkyline{
+    width: 350px;
+}
+
+.arrowDown{
+    height: 150px;
+}
+
+/*MAIN*/
+
+.main {
+    background: url("cars-6248509 (1).png   "), no-repeat;
+    right: 0;
+    left: 0;
+    background-position-y: bottom;
+    background-size: cover;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+
+.mainBox {
+    display: grid;
+    height: 100vh;
+    align-content: center;
+    margin: 0;
+}
+
+.mainText {
+    text-align: center;
+    color: aliceblue;
+}
+
+.mainText h1{
+    font-weight: bolder;
+    font-size: 150px;
+    line-height: 0
+}
+
+.mainText h2{
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 0;
+
+}
+
+.mainText h3{
+    font-style: italic;
+    font-weight: initial;
+    font-size: 50px;
+    line-height: 0;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+
+.mainText img {
+    padding-top: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.grid-item {
+    background-color: #1a001a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.historie {
+    padding: 20px;
+    display: grid;
+    background-color: #1a001a;
+    border-radius: 20px;
+}
+
+.mithsubishi{
+    padding-left: 150px;
+    padding-right: 20px;
+}
+
+.modely {
+    padding: 20px;
+    display: grid;
+    background-color: #1a001a;
+    border-radius: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.modely img {
+    text-align: center;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+.modely h1 {
+    font-style: oblique;
+    font-size: 20px;
+}
+

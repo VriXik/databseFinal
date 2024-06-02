@@ -1,0 +1,59 @@
+!doctype html>
+<html lang="cz">
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/icons8-hennessey-venom-30.png">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JDM Cars</title>
+
+</head>
+
+<header>
+  <div class="navbar">
+    <a href="#main">Main</a>
+    <a href="./#uvod">Nejpopularnějši auta</a>
+    <a href="./#historie">Historie</a>
+    <a href="modely.html" target="_blank">Modely</a>
+    <a href="osobnosti.html" target="_blank">Osobnosti</a>
+    <a href="./PongGame/Pong.html" target="_blank">MiniHra</a>
+  </div>
+</header>
+
+<body>
+
+<div id="main" class="main">
+  <div class="mainBox">
+    <div class="mainText">
+
+      <h1>JDM</h1>
+      <h2>CARS</h2>
+      <h3>Japanese domestic market</h3>
+      <img class="arrowDown" src="./img/arrow-down-white.png" alt="Arrow down">
+    </div>
+  </div>
+</div>
+
+
+<div id="uvod" class="grid-container2">
+  <div class="grid-item">
+
+    <form action="addCar.php" method="post">
+      <label for="carFactory">Vyrobce:</label><br>
+      <input type="text" id="carFactory" name="carFactory"><br>
+      <label for="carModel">Model auta:</label><br>
+      <input type="text" id="carModel" name="carModel"><br>
+      <label for="EnginePower">Vykon motoru:</label><br>
+      <input type="number" id="EnginePower" name="EnginePower"><br>
+      <label for="carPrice">Cena:</label><br>
+      <input type="number" id="carPrice" name="carPrice"><br>
+      <label for="carYear">Rok vyroby:</label><br>
+      <input type="date" id="carYear" name="carYear"><br>
+      <input type="submit" value="Přidat auto">
+    </form>
+  </div>
+</div>
+</body>
+</html>
